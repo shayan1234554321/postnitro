@@ -1,11 +1,10 @@
 import "@mantine/core/styles.css";
 import React from "react";
 import {
-  MantineProvider,
   ColorSchemeScript,
   mantineHtmlProps,
 } from "@mantine/core";
-import { theme } from "../util/theme";
+import Providers from "../providers";
 
 export const metadata = {
   title: "Shayan",
@@ -24,11 +23,9 @@ export default function RootLayout({ children }: { children: any }) {
         />
       </head>
       <body
-        data-new-gr-c-s-check-loaded="14.1209.0"
-        data-gr-ext-installed=""
         suppressHydrationWarning
       >
-        <MantineProvider theme={theme}>{children}</MantineProvider>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
