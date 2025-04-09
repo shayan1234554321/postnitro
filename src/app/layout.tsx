@@ -1,19 +1,18 @@
 import "@mantine/core/styles.css";
 import React from "react";
-import {
-  ColorSchemeScript,
-  mantineHtmlProps,
-} from "@mantine/core";
+import { ColorSchemeScript, mantineHtmlProps } from "@mantine/core";
 import Providers from "../providers";
+import { getLocale } from "next-intl/server";
 
 export const metadata = {
   title: "Shayan",
   description: "Job Project",
 };
 
-export default function RootLayout({ children }: { children: any }) {
+export default async function RootLayout({ children }: { children: any }) {
+  const locale = await getLocale();
   return (
-    <html lang="en" {...mantineHtmlProps}>
+    <html lang={locale} {...mantineHtmlProps}>
       <head>
         <ColorSchemeScript />
         <link rel="shortcut icon" href="/favicon.ico" />
@@ -22,9 +21,7 @@ export default function RootLayout({ children }: { children: any }) {
           content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
         />
       </head>
-      <body
-        suppressHydrationWarning
-      >
+      <body suppressHydrationWarning>
         <Providers>{children}</Providers>
       </body>
     </html>
