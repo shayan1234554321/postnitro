@@ -79,5 +79,17 @@
         "2":"狂歡節"
       }
     }
+  },
+  "homePage":{
+    "subTitle":"人工智慧驅動的病毒式內容輪播產生器",
+    "title":"適用於 Instagram、LinkedIn 等平台的 AI 驅動輪播產生器",
+    "description":"PostNitro 的人工智慧平台為 Instagram、LinkedIn、TikTok 等創建了令人驚嘆的輪播。透過在幾分鐘內產生的可自訂、與品牌一致的內容來提升您的社群媒體參與度。",
+    "creators":"加入 32,000+ 位創作者",
+    "embedded":{
+      "title":"嵌入到",
+      "description":"40+ SMM平台"
+    },
+    "button":"開始創建免費輪播",
+    "subButton":"無需信用卡 |每月免費下載"
   }
 }

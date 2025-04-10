@@ -3,6 +3,7 @@
 import { createTheme } from "@mantine/core";
 
 export const theme = createTheme({
+  fontFamily: 'Inter, sans-serif',
   colors: {
     green: [
       "#0DC7A9", // lightest (index 0)
@@ -28,6 +29,18 @@ export const theme = createTheme({
       "#141517",
       "#101113", // darkest (index 9)
     ],
+  },
+  components: {
+    Button: {
+      defaultProps: {
+        radius: "md",
+      },
+      styles: () => ({
+        root: {
+          borderRadius: "10px",
+        },
+      }),
+    },
   },
 });
 

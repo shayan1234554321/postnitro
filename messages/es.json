@@ -82,5 +82,17 @@
         "2":"Parranda"
       }
     }
+  },
+  "homePage":{
+    "subTitle":"Generador de carruseles con IA para contenido viral",
+    "title":"Generador de carruseles con tecnología de IA para Instagram, LinkedIn y más",
+    "description":"La plataforma de PostNitro, impulsada por IA, crea carruseles impactantes para Instagram, LinkedIn, TikTok y más. Impulsa tu interacción en redes sociales con contenido personalizable y alineado con tu marca, generado en minutos.",
+    "creators":"Únete a más de 32,000 creadoras",
+    "embedded":{
+      "title":"Integrado en",
+      "description":"40+ Plataformas SMM"
+    },
+    "button":"Empieza a crear carruseles gratuitos",
+    "subButton":"No se requiere tarjeta de crédito | Descargas gratuitas cada mes"
   }
 }

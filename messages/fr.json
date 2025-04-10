@@ -79,5 +79,17 @@
         "2":"Beuverie"
       }
     }
+  },
+  "homePage":{
+    "subTitle":"Générateur de carrousel alimenté par l'IA pour le contenu viral",
+    "title":"Générateur de carrousel basé sur l'IA pour Instagram, LinkedIn et plus encore",
+    "description":"La plateforme d'IA de PostNitro crée des carrousels époustouflants pour Instagram, LinkedIn, TikTok et bien plus encore. Boostez votre engagement sur les réseaux sociaux grâce à du contenu personnalisable et personnalisé, généré en quelques minutes.",
+    "creators":"Rejoignez plus de 32 000 créateurs",
+    "embedded":{
+      "title":"Intégré dans",
+      "description":"40+ Plateformes SMM"
+    },
+    "button":"Commencez à créer des carrousels gratuits",
+    "subButton":"Aucune carte de crédit requise | Téléchargements gratuits chaque mois"
   }
 }

@@ -51,7 +51,7 @@ const Header = ({ locale }: { locale: string }) => {
       <div suppressHydrationWarning>
         <div suppressHydrationWarning>
           <div className="left" suppressHydrationWarning>
-            <Link href={"/"}>
+            <Link href={"/"} style={{display: "flex", alignItems: "center", justifyContent: "center"}} >
               <Image
                 src="/logo-full.svg"
                 alt="logo"
@@ -100,6 +100,7 @@ const Header = ({ locale }: { locale: string }) => {
                   border: "none",
                   color: "black",
                 }}
+                color="green.4"
                 size="md"
                 onClick={() => {
                   router.push("/plans");
