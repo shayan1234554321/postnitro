@@ -1,5 +1,83 @@
 {
   "HomePage": {
     "title": "你好世界!"
+  },
+  "nav": {
+    "menu": {
+      "Getting Started": {
+        "name": "入门",
+        "list": {
+          "1": { "name": "文档", "link": " https://postnitro.ai/docs" },
+          "2": { "name": "博客", "link": "https://postnitro.ai/blog" },
+          "3": {
+            "name": "附属公司",
+            "link": " https://ls.postnitro.ai/affiliates"
+          }
+        }
+      },
+      "Products": {
+        "name": "产品",
+        "list": {
+          "1": {
+            "name": "LinkedIn 轮播",
+            "link": "https://postnitro.ai/carousels/linkedin"
+          },
+          "2": {
+            "name": "Instagram 轮播",
+            "link": "https://postnitro.ai/carousels/instagram"
+          },
+          "3": {
+            "name": "TikTok 轮播",
+            "link": "https://postnitro.ai/carousels/tiktok"
+          },
+          "4": {
+            "name": "Twitter 轮播",
+            "link": "https://postnitro.ai/carousels/x-twitter"
+          },
+          "5": {
+            "name": "嵌入",
+            "link": "https://postnitro.ai/products/embed"
+          },
+          "6": {
+            "name": " 扩大",
+            "link": "https://postnitro.ai/products/extension"
+          }
+        }
+      },
+      "Free Tools": {
+        "name": "免费工具",
+        "list": {
+          "1": {
+            "name": "Twitter 横幅制作器",
+            "link": "https://postnitro.ai/free-ai-tools/twitter-free-banner-header-image-maker"
+          },
+          "2": {
+            "name": "LinkedIn 横幅制作器",
+            "link": "https://postnitro.ai/free-ai-tools/linkedin-free-banner-header-image-maker"
+          },
+          "3": {
+            "name": "Instagram 网格制作者",
+            "link": "https://postnitro.ai/free-ai-tools/instagram-free-image-splitter-grid-maker"
+          },
+          "4": {
+            "name": "LinkedIn 文本格式化程序",
+            "link": "https://postnitro.ai/free-ai-tools/linkedin-free-text-formatter"
+          },
+          "5": {
+            "name": "LinkedIn 后期生成器",
+            "link": "https://postnitro.ai/free-ai-tools/linkedin-free-post-generator"
+          }
+        }
+      },
+      "plans": "計劃"
+    },
+    "buttons":{
+      "menu":"選單",
+      "imagePost":"建立圖片貼文",
+      "createCarousal":{
+        "1":"創造",
+        "2":"狂歡節"
+      }
+    }
   }
 }

@@ -7,75 +7,44 @@ import { CaretDown, List, Sparkle, X } from "@phosphor-icons/react";
 import CountrySelector from "../elements/countrySelector";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-
-const menu = [
-  {
-    name: "Getting Started",
-    list: [
-      { name: "Docs", link: " https://postnitro.ai/docs" },
-      { name: "Blog", link: "https://postnitro.ai/blog" },
-      { name: "Affiliates", link: " https://ls.postnitro.ai/affiliates" },
-    ],
-  },
-  {
-    name: "Products",
-    list: [
-      {
-        name: "LinkedIn Carousel",
-        link: "https://postnitro.ai/carousels/linkedin",
-      },
-      {
-        name: "Instagram Carousel",
-        link: "https://postnitro.ai/carousels/instagram",
-      },
-      {
-        name: "TikTok Carousel",
-        link: "https://postnitro.ai/carousels/tiktok",
-      },
-      {
-        name: "Twitter Carousel",
-        link: "https://postnitro.ai/carousels/x-twitter",
-      },
-      {
-        name: "Embed",
-        link: "https://postnitro.ai/products/embed",
-      },
-      {
-        name: "Extension",
-        link: "https://postnitro.ai/products/extension",
-      },
-    ],
-  },
-  {
-    name: "Free Tools",
-    list: [
-      {
-        name: "Twitter Banner Maker",
-        link: "https://postnitro.ai/free-ai-tools/twitter-free-banner-header-image-maker",
-      },
-      {
-        name: "LinkedIn Banner Maker",
-        link: "https://postnitro.ai/free-ai-tools/linkedin-free-banner-header-image-maker",
-      },
-      {
-        name: "Instagram Grid Maker",
-        link: "https://postnitro.ai/free-ai-tools/instagram-free-image-splitter-grid-maker",
-      },
-      {
-        name: "LinkedIn Text Formatter",
-        link: "https://postnitro.ai/free-ai-tools/linkedin-free-text-formatter",
-      },
-      {
-        name: "LinkedIn Post Generator",
-        link: "https://postnitro.ai/free-ai-tools/linkedin-free-post-generator",
-      },
-    ],
-  },
-];
+import { useTranslations } from "next-intl";
 
 const Header = ({ locale }: { locale: string }) => {
   const router = useRouter();
   const [mobileMenu, setMobileMenu] = React.useState(false);
+  const t = useTranslations("nav");
+
+  const menu = [
+    {
+      name: t("menu.Getting Started.name"),
+      list: [
+        { name: t("menu.Getting Started.list.1.name"), link: " https://postnitro.ai/docs" },
+        { name: t("menu.Getting Started.list.2.name"), link: "https://postnitro.ai/blog" },
+        { name: t("menu.Getting Started.list.3.name"), link: " https://ls.postnitro.ai/affiliates" },
+      ]
+    },
+    {
+      name: t("menu.Products.name"),
+      list: [
+        { name: t("menu.Products.list.1.name"), link: "https://postnitro.ai/carousels/linkedin" },
+        { name: t("menu.Products.list.2.name"), link: "https://postnitro.ai/carousels/instagram" },
+        { name: t("menu.Products.list.3.name"), link: "https://postnitro.ai/carousels/tiktok" },
+        { name: t("menu.Products.list.4.name"), link: "https://postnitro.ai/carousels/x-twitter" },
+        { name: t("menu.Products.list.5.name"), link: "https://postnitro.ai/products/embed" },
+        { name: t("menu.Products.list.6.name"), link: "https://postnitro.ai/products/extension" },
+      ]
+    },
+    {
+      name: t("menu.Free Tools.name"),
+      list: [
+        { name: t("menu.Free Tools.list.1.name"), link: "https://postnitro.ai/free-ai-tools/twitter-free-banner-header-image-maker" },
+        { name: t("menu.Free Tools.list.2.name"), link: "https://postnitro.ai/free-ai-tools/linkedin-free-banner-header-image-maker" },
+        { name: t("menu.Free Tools.list.3.name"), link: "https://postnitro.ai/free-ai-tools/instagram-free-image-splitter-grid-maker" },        
+        { name: t("menu.Free Tools.list.4.name"), link: "https://postnitro.ai/free-ai-tools/linkedin-free-text-formatter" },
+        { name: t("menu.Free Tools.list.5.name"), link: "https://postnitro.ai/free-ai-tools/linkedin-free-post-generator" },
+      ]
+    }
+  ]
 
   return (
     <nav className="nav" suppressHydrationWarning>
@@ -136,7 +105,7 @@ const Header = ({ locale }: { locale: string }) => {
                   router.push("/plans");
                 }}
               >
-                Plans
+                {t("menu.plans")}
               </Button>
             </div>
           </div>
@@ -167,7 +136,7 @@ const Header = ({ locale }: { locale: string }) => {
                 router.push("/app/post-maker");
               }}
             >
-              Create Image Post
+              {t("buttons.imagePost")}
             </Button>
             <Button
               className="showOnlyOnMobile"
@@ -177,7 +146,7 @@ const Header = ({ locale }: { locale: string }) => {
               size="md"
               onClick={() => setMobileMenu(true)}
             >
-              Menu
+              {t("buttons.menu")}
             </Button>
             <Button
                variant="filled"
@@ -191,7 +160,7 @@ const Header = ({ locale }: { locale: string }) => {
                 router.push("/app/carousel-maker");
               }}
             >
-              Create <span className="dontShowOnMobile">Carousal</span>
+              {t("buttons.createCarousal.1")} <span className="dontShowOnMobile">&nbsp;{t("buttons.createCarousal.2")}</span>
             </Button>
           </div>
         </div>
@@ -241,7 +210,7 @@ const Header = ({ locale }: { locale: string }) => {
                 router.push("/plans");
               }}
             >
-              Plans
+              {t("menu.plans")}
             </Button>
           </div>
         </div>

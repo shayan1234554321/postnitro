@@ -1,5 +1,84 @@
 {
   "HomePage": {
     "title": "Hello world!"
+  },
+  "nav": {
+    "test": "working",
+    "menu": {
+      "Getting Started": {
+        "name": "Getting Started",
+        "list": {
+          "1": { "name": "Docs", "link": " https://postnitro.ai/docs" },
+          "2": { "name": "Blog", "link": "https://postnitro.ai/blog" },
+          "3": {
+            "name": "Affiliates",
+            "link": " https://ls.postnitro.ai/affiliates"
+          }
+        }
+      },
+      "Products": {
+        "name": "Products",
+        "list": {
+          "1": {
+            "name": "LinkedIn Carousel",
+            "link": "https://postnitro.ai/carousels/linkedin"
+          },
+          "2": {
+            "name": "Instagram Carousel",
+            "link": "https://postnitro.ai/carousels/instagram"
+          },
+          "3": {
+            "name": "TikTok Carousel",
+            "link": "https://postnitro.ai/carousels/tiktok"
+          },
+          "4": {
+            "name": "Twitter Carousel",
+            "link": "https://postnitro.ai/carousels/x-twitter"
+          },
+          "5": {
+            "name": "Embed",
+            "link": "https://postnitro.ai/products/embed"
+          },
+          "6": {
+            "name": "Extension",
+            "link": "https://postnitro.ai/products/extension"
+          }
+        }
+      },
+      "Free Tools": {
+        "name": "Free Tools",
+        "list": {
+          "1": {
+            "name": "Twitter Banner Maker",
+            "link": "https://postnitro.ai/free-ai-tools/twitter-free-banner-header-image-maker"
+          },
+          "2": {
+            "name": "LinkedIn Banner Maker",
+            "link": "https://postnitro.ai/free-ai-tools/linkedin-free-banner-header-image-maker"
+          },
+          "3": {
+            "name": "Instagram Grid Maker",
+            "link": "https://postnitro.ai/free-ai-tools/instagram-free-image-splitter-grid-maker"
+          },
+          "4": {
+            "name": "LinkedIn Text Formatter",
+            "link": "https://postnitro.ai/free-ai-tools/linkedin-free-text-formatter"
+          },
+          "5": {
+            "name": "LinkedIn Post Generator",
+            "link": "https://postnitro.ai/free-ai-tools/linkedin-free-post-generator"
+          }
+        }
+      },
+      "plans": "Plans"
+    },
+    "buttons":{
+      "menu":"Menu",
+      "imagePost":"Create Image Post",
+      "createCarousal":{
+        "1":"Create",
+        "2":"Carousal"
+      }
+    }
   }
 }

@@ -1,5 +1,86 @@
 {
   "HomePage": {
     "title": "Hola Mundo!"
+  },
+  "nav": {
+    "menu": {
+      "Getting Started": {
+        "name": "Comenzar",
+        "list": {
+          "1": {
+            "name": "Documentaci n",
+            "link": " https://postnitro.ai/docs"
+          },
+          "2": { "name": "Blog", "link": "https://postnitro.ai/blog" },
+          "3": {
+            "name": "Afiliados",
+            "link": " https://ls.postnitro.ai/affiliates"
+          }
+        }
+      },
+      "Products": {
+        "name": "Productos",
+        "list": {
+          "1": {
+            "name": "Carrusel de LinkedIn",
+            "link": "https://postnitro.ai/carousels/linkedin"
+          },
+          "2": {
+            "name": "Carrusel de Instagram",
+            "link": "https://postnitro.ai/carousels/instagram"
+          },
+          "3": {
+            "name": "Carrusel de TikTok",
+            "link": "https://postnitro.ai/carousels/tiktok"
+          },
+          "4": {
+            "name": "Carrusel de Twitter",
+            "link": "https://postnitro.ai/carousels/x-twitter"
+          },
+          "5": {
+            "name": "Integración",
+            "link": "https://postnitro.ai/products/embed"
+          },
+          "6": {
+            "name": "Extensión",
+            "link": "https://postnitro.ai/products/extension"
+          }
+        }
+      },
+      "Free Tools": {
+        "name": "Herramientas gratuitas",
+        "list": {
+          "1": {
+            "name": "Creación de banners de Twitter",
+            "link": "https://postnitro.ai/free-ai-tools/twitter-free-banner-header-image-maker"
+          },
+          "2": {
+            "name": "Creación de banners de LinkedIn",
+            "link": "https://postnitro.ai/free-ai-tools/linkedin-free-banner-header-image-maker"
+          },
+          "3": {
+            "name": "Divisor de imágenes de Instagram en cuadrado",
+            "link": "https://postnitro.ai/free-ai-tools/instagram-free-image-splitter-grid-maker"
+          },
+          "4": {
+            "name": "Formato de texto de LinkedIn",
+            "link": "https://postnitro.ai/free-ai-tools/linkedin-free-text-formatter"
+          },
+          "5": {
+            "name": "Generador de publicaciones de LinkedIn",
+            "link": "https://postnitro.ai/free-ai-tools/linkedin-free-post-generator"
+          }
+        }
+      },
+      "plans": "Planes"
+    },
+    "buttons":{
+      "menu":"Menú",
+      "imagePost":"Crear publicación de imagen",
+      "createCarousal":{
+        "1":"Crear",
+        "2":"Parranda"
+      }
+    }
   }
 }

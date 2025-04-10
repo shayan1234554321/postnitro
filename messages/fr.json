@@ -1,5 +1,83 @@
 {
   "HomePage": {
     "title": "Bonjour le monde!"
+  },
+  "nav": {
+    "menu": {
+      "Getting Started": {
+        "name": "Commencer",
+        "list": {
+          "1": { "name": "Docs", "link": " https://postnitro.ai/docs" },
+          "2": { "name": "Blog", "link": "https://postnitro.ai/blog" },
+          "3": {
+            "name": "Filiale",
+            "link": " https://ls.postnitro.ai/affiliates"
+          }
+        }
+      },
+      "Products": {
+        "name": "Produits",
+        "list": {
+          "1": {
+            "name": "Carrousel LinkedIn",
+            "link": "https://postnitro.ai/carousels/linkedin"
+          },
+          "2": {
+            "name": "Carrousel Instagram",
+            "link": "https://postnitro.ai/carousels/instagram"
+          },
+          "3": {
+            "name": "Carrousel TikTok",
+            "link": "https://postnitro.ai/carousels/tiktok"
+          },
+          "4": {
+            "name": "Carrousel Twitter",
+            "link": "https://postnitro.ai/carousels/x-twitter"
+          },
+          "5": {
+            "name": "Int gration",
+            "link": "https://postnitro.ai/products/embed"
+          },
+          "6": {
+            "name": "Extension",
+            "link": "https://postnitro.ai/products/extension"
+          }
+        }
+      },
+      "Free Tools": {
+        "name": "Outils gratuits",
+        "list": {
+          "1": {
+            "name": "G n rateur de banni re Twitter",
+            "link": "https://postnitro.ai/free-ai-tools/twitter-free-banner-header-image-maker"
+          },
+          "2": {
+            "name": "G n rateur de banni re LinkedIn",
+            "link": "https://postnitro.ai/free-ai-tools/linkedin-free-banner-header-image-maker"
+          },
+          "3": {
+            "name": "G n rateur de grille Instagram",
+            "link": "https://postnitro.ai/free-ai-tools/instagram-free-image-splitter-grid-maker"
+          },
+          "4": {
+            "name": "Formateur de texte LinkedIn",
+            "link": "https://postnitro.ai/free-ai-tools/linkedin-free-text-formatter"
+          },
+          "5": {
+            "name": "G n rateur de post LinkedIn",
+            "link": "https://postnitro.ai/free-ai-tools/linkedin-free-post-generator"
+          }
+        }
+      },
+      "plans": "Forfaits"
+    },
+    "buttons":{
+      "menu":"Menu",
+      "imagePost":"Créer une publication d'image",
+      "createCarousal":{
+        "1":"Créer",
+        "2":"Beuverie"
+      }
+    }
   }
 }
