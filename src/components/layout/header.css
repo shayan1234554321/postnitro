@@ -1,0 +1,96 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 101;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+}
+
+.nav > div {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 3vw;
+}
+
+.nav > div > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 0;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.nav .logo {
+    width: 131px;
+    height: auto;
+}
+
+.nav .left, .nav .right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav .showOnlyOnMobile {
+  display: none;
+}
+
+.nav .mobileMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: saturate(150%) blur(24px);
+  z-index: 102;
+  display: none;
+  flex-direction: column;
+  justify-content: start;
+  /* gap: 1rem; */
+  padding: 1rem;
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+
+.nav .mobileMenu > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav .mobileMenu > .close {
+  width: 100%;
+  align-items: start;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .nav .left > div {
+    display: none;
+  }
+
+  .nav .showOnlyOnMobile {
+    display: block;
+  }
+
+  .nav .mobileMenu {
+    display: none;
+  }
+
+  .nav .mobileMenu.show {
+    display: flex;
+  }
+
+  .nav .dontShowOnMobile {
+    display: none;
+  }
+  
+}

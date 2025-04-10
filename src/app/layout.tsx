@@ -3,6 +3,8 @@ import React from "react";
 import { ColorSchemeScript, mantineHtmlProps } from "@mantine/core";
 import Providers from "../providers";
 import { getLocale } from "next-intl/server";
+import dynamic from "next/dynamic";
+const Header = dynamic(() => import("../components/layout/header"));
 
 export const metadata = {
   title: "Shayan",
@@ -22,7 +24,9 @@ export default async function RootLayout({ children }: { children: any }) {
         />
       </head>
       <body suppressHydrationWarning>
-        <Providers>{children}</Providers>
+        <Providers>
+          <Header locale={locale} />
+          {children}</Providers>
       </body>
     </html>
   );
