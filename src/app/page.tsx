@@ -1,5 +1,4 @@
-import { Button, Text, Title } from "@mantine/core";
-import { ArrowRight, Check, Circle, Star } from "@phosphor-icons/react";
+import { Text, Title } from "@mantine/core";
 import Image from "next/image";
 import "./page.css";
 import { getTranslations } from "next-intl/server";

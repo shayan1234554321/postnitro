@@ -1,5 +1,7 @@
 <a name="readme-top"></a>
 
+<img src="./ss1.png"  />
+
 # 📗 Table of Contents
 
 - [🛠 Built With](#built-with)
@@ -45,7 +47,7 @@ Clone this repository to your desired folder:
 
 ### Install
 
-```npm install```
+``npm install``
 
 ### Usage
 
@@ -58,8 +60,6 @@ And it will run on localhost:3000
 ```mermaide
 npm run build
 ```
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
