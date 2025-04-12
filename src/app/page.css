@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 20vw;
+  padding: 20vh 20vw;
   background-image: url(/grid-box.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,6 +18,20 @@
   font-weight: 600;
   line-height: 1.2;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .homePage .header {
+    font-size: 2.5rem;
+    line-height: 0.9;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .homePage .header {
+    font-size: 2rem;
+    line-height: 1;
+  }
 }
 
 .homePage .details {

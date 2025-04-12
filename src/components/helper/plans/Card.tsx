@@ -29,6 +29,7 @@ const Card = ({
         color="green.4"
         style={{ fontWeight: 700, marginBottom: "5px" }}
         size="xl"
+        className="textLG"
       >
         {item.name}
       </Text>
@@ -40,11 +41,12 @@ const Card = ({
             color: "red",
           }}
           size="sm"
+          className="textSM"
         >
           {t("plans.common.previously")}: {item.price.monthly}
         </Text>
       )}
-      <Text style={{ fontWeight: 700 }} size="xl">
+      <Text style={{ fontWeight: 700 }} size="xl" className="textLG">
         {item.price[period]}
       </Text>
       {isYearly && item.saves && (
@@ -56,17 +58,18 @@ const Card = ({
           size="md"
           color="green.4"
           mb="xs"
+          className="textXS"
         >
           {item.saves}
         </Text>
       )}
-      <Text color="dark.3" mb="sm" size="sm">
+      <Text color="dark.3" mb="sm" size="sm" className="textSM">
         {item.perfectFor}
       </Text>
       {item.features.map((feature) => (
         <div className="features" key={feature}>
           <CheckCircle size="24" style={{ minWidth: "24px" }} color="#098D78" />
-          <Text key={feature}>{feature}</Text>
+          <Text key={feature} className="textMD" >{feature}</Text>
         </div>
       ))}
       <Button
@@ -76,10 +79,11 @@ const Card = ({
         color="green.4"
         leftSection={<Lightning size="16" />}
         variant={item.focused ? "filled" : "outline"}
+        className="textMD"
       >
         {t("plans.common.button")}
       </Button>
-      <Text size="xs">* {t("plans.common.taxes")}.</Text>
+      <Text size="xs" className="textXS">* {t("plans.common.taxes")}.</Text>
     </div>
   );
 };

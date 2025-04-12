@@ -1,0 +1,51 @@
+.textLG {
+  font-size: 18px;
+}
+
+.textMD {
+  font-size: 16px;
+}
+
+.textSM {
+  font-size: 14px;
+}
+
+.textXS {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .textLG {
+    font-size: 16px;
+  }
+
+  .textMD {
+    font-size: 14px;
+  }
+
+  .textSM {
+    font-size: 12px;
+  }
+
+  .textXS {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .textLG {
+    font-size: 14px;
+  }
+
+  .textMD {
+    font-size: 12px;
+  }
+
+  .textSM {
+    font-size: 10px;
+  }
+
+  .textXS {
+    font-size: 8px;
+  }
+}

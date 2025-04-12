@@ -1,5 +1,6 @@
 import "@mantine/core/styles.css";
 import React from "react";
+import "./global.css";
 import { ColorSchemeScript, mantineHtmlProps } from "@mantine/core";
 import Providers from "../providers";
 import { getLocale } from "next-intl/server";

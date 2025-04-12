@@ -67,7 +67,7 @@ const Page = () => {
       <Title order={1} className="header">
         {t("subTitle")}
       </Title>
-      <Text size="lg" style={{ color: "#475467", textAlign: "center" }} m="md">
+      <Text size="lg" style={{ color: "#475467", textAlign: "center" }} className="textLG" m="md">
         {t("title")}
       </Text>
       <SegmentedControl
@@ -81,11 +81,12 @@ const Page = () => {
           indicator: { borderRadius: "7px" },
           innerLabel: { padding: "40px" },
         }}
+        className="textSM"
         value={period}
         onChange={(value) => setPeriod(value as "monthly" | "yearly")}
       />
       {period === "yearly" && (
-        <Badge color="green.4" size="lg" mt="md">
+        <Badge color="green.4" size="lg" mt="md" className="textMD">
           {t("off")}
         </Badge>
       )}
@@ -94,7 +95,7 @@ const Page = () => {
           <Card key={i} item={plan} period={period} />
         ))}
       </div>
-      <Text mt="xl" mb="xl" style={{ fontStyle: "italic" }}>
+      <Text mt="xl" mb="xl" className="textMD" style={{ fontStyle: "italic" }}>
         {t("limits.1")}{" "}
         <a
           style={{
@@ -104,6 +105,7 @@ const Page = () => {
           }}
           href="https://postnitro.ai/docs/how-to/manage-subscription/additional-limits"
           target="_blank"
+          className="textMD"
         >
           {t("limits.2")}
         </a>{" "}
@@ -124,13 +126,14 @@ const Page = () => {
             color="green.4"
             style={{ fontWeight: 700, textAlign: "center" }}
             size="xl"
+            className="textLG"
           >
             {t("freePlan.name")}
           </Text>
-          <Text style={{ fontWeight: 700, textAlign: "center" }} size="xl">
+          <Text className="textLG" style={{ fontWeight: 700, textAlign: "center" }} size="xl">
             {t("freePlan.price")}
           </Text>
-          <Text color="dark.3" style={{ textAlign: "center" }} size="sm">
+          <Text className="textLG" color="dark.3" style={{ textAlign: "center" }} size="sm">
             {t("freePlan.perfectFor")}
           </Text>
         </div>
@@ -141,7 +144,7 @@ const Page = () => {
               style={{ minWidth: "24px" }}
               color="#098D78"
             />
-            <Text>{t("freePlan.features.1")}</Text>
+            <Text className="textMD" >{t("freePlan.features.1")}</Text>
           </div>
           <div className="features">
             <CheckCircle
@@ -149,7 +152,7 @@ const Page = () => {
               style={{ minWidth: "24px" }}
               color="#098D78"
             />
-            <Text>{t("freePlan.features.2")}</Text>
+            <Text className="textMD">{t("freePlan.features.2")}</Text>
           </div>
           <div className="features">
             <CheckCircle
@@ -157,7 +160,7 @@ const Page = () => {
               style={{ minWidth: "24px" }}
               color="#098D78"
             />
-            <Text>{t("freePlan.features.3")}</Text>
+            <Text className="textMD" >{t("freePlan.features.3")}</Text>
           </div>
         </div>
         <Button
@@ -166,6 +169,7 @@ const Page = () => {
           color="green.4"
           leftSection={<Lightning size="16" />}
           variant="outline"
+          className="textMD"
         >
           {t("plans.common.button")}
         </Button>

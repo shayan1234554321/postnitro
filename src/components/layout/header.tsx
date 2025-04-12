@@ -70,6 +70,7 @@ const Header = ({ locale }: { locale: string }) => {
                       style={{ color: "black" }}
                       rightSection={<CaretDown size={16} />}
                       size="md"
+                      className="textMD"
                     >
                       {item.name}
                     </Button>
@@ -82,9 +83,9 @@ const Header = ({ locale }: { locale: string }) => {
                             textDecoration: "none",
                             color: "black",
                             fontWeight: "500",
-                            fontSize: "16px",
                           }}
                           href={item.link}
+                          className="textMD"
                         >
                           {item.name}
                         </Link>
@@ -102,6 +103,7 @@ const Header = ({ locale }: { locale: string }) => {
                 }}
                 color="green.4"
                 size="md"
+                className="textMD"
                 onClick={() => {
                   router.push("/plans");
                 }}
@@ -113,7 +115,7 @@ const Header = ({ locale }: { locale: string }) => {
           <div className="right" suppressHydrationWarning>
             <CountrySelector locale={locale} />
             <Button
-              className="dontShowOnMobile"
+              className="dontShowOnMobile textMD"
               variant="outline"
               color="green.4"
               style={{
@@ -129,6 +131,7 @@ const Header = ({ locale }: { locale: string }) => {
                     color: "white",
                   }}
                   size="xs"
+                  className="textXS"
                 >
                   BETA
                 </Pill>
@@ -140,7 +143,7 @@ const Header = ({ locale }: { locale: string }) => {
               {t("buttons.imagePost")}
             </Button>
             <Button
-              className="showOnlyOnMobile"
+              className="showOnlyOnMobile textMD"
               variant="subtle"
               color="dark.9"
               leftSection={<List size={16} />}
@@ -157,6 +160,7 @@ const Header = ({ locale }: { locale: string }) => {
                }}
               leftSection={<Sparkle size={16} />}
               size="md"
+              className="textMD"
               onClick={() => {
                 router.push("/app/carousel-maker");
               }}
@@ -180,8 +184,9 @@ const Header = ({ locale }: { locale: string }) => {
           {menu.map((item, index) => (
             <div key={index}>
               <Text
-                size="l"
+                size="md"
                 style={{ width: "max-content", fontWeight: "500" }}
+                className="textMD"
               >
                 {item.name}
               </Text>
@@ -194,6 +199,7 @@ const Header = ({ locale }: { locale: string }) => {
                   onClick={() => {
                     router.push(item.link);
                   }}
+                className="textMD"
                 >
                   <Text size="l" style={{ width: "max-content" }}>
                     {item.name}
@@ -207,6 +213,7 @@ const Header = ({ locale }: { locale: string }) => {
               color="green.4"
               variant="subtle"
               size="lg"
+              className="textLG"
               onClick={() => {
                 router.push("/plans");
               }}

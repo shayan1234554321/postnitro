@@ -10,6 +10,7 @@ export const SubHeader = () => {
   return (
     <Button
       size="md"
+      className="textMD"
       style={{
         pointerEvents: "none",
         borderColor: "rgba(0,0,0,0.2)",
@@ -42,6 +43,7 @@ export const MainButton = () => {
 
   return (
     <Button
+    className="textLG"
       mt="lg"
       mb="xs"
       rightSection={<ArrowRight size="20" />}
@@ -56,7 +58,7 @@ export const MainButton = () => {
 export const SubButton = () => {
   const t = useTranslations("homePage");
   return (
-    <Text variant="subtle" color="green.7" style={{ pointerEvents: "none" }}>
+    <Text variant="subtle" color="green.7" style={{ pointerEvents: "none" }} className="textMD">
       <Check size="16" />
       &nbsp;{t("subButton")}
     </Text>

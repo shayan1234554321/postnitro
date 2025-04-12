@@ -19,7 +19,7 @@ export default async function HomePage() {
       <Title order={1} className="header">
         {t("title")}
       </Title>
-      <Text size="lg" style={{ color: "#475467", textAlign: "center" }} m="md">
+      <Text size="lg" style={{ color: "#475467", textAlign: "center" }} m="md" className="textLG">
         {t("description")}
       </Text>
       <div className="details">
@@ -30,19 +30,19 @@ export default async function HomePage() {
           height={44}
           width={219}
         />
-        <div className="creators">
+        <div className="creators textMD" >
           <div>
             <Stars />
-            <Text style={{ fontWeight: "600", marginLeft: "0.375rem" }}>
+            <Text style={{ fontWeight: "600", marginLeft: "0.375rem" }} className="textMD">
               5.0
             </Text>
           </div>
-          <Text style={{ color: "#475467" }}>{t("creators")}</Text>
+          <Text style={{ color: "#475467" }} className="textMD">{t("creators")}</Text>
         </div>
         <div className="divider" />
         <div>
-          <Text style={{ fontWeight: "600" }}>{t("embedded.title")}</Text>
-          <Text size="sm" style={{ color: "#475467" }}>
+          <Text className="textMD" style={{ fontWeight: "600" }}>{t("embedded.title")}</Text>
+          <Text className="textMD" size="sm" style={{ color: "#475467" }}>
             {t("embedded.description")}
           </Text>
         </div>
