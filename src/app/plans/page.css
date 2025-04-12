@@ -5,13 +5,24 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 20vw;
-  padding-top: 90px;
+  padding: 20vh 15vw;
   background-image: url(/grid-box.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-size: 2500px;
+}
+
+@media screen and (max-width: 1023px) {
+  .plansPage {
+    padding: 10vh 10vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .plansPage {
+    padding: 10vh 5vw;
+  }
 }
 
 .plansPage .header {
@@ -37,10 +48,38 @@
 
 .plansPage .plansContainer {
   display: flex;
-  /* flex-wrap: wrap; */
   gap: 1rem;
   align-items: center;
   justify-content: center;
   margin-top: 30px;
   z-index: 1;
+}
+
+@media screen and (max-width: 1440px) {
+  .plansPage .plansContainer {
+    min-width: 800px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .plansPage .plansContainer {
+    min-width: 700px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .plansPage .plansContainer {
+    min-width: 300px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .plansPage .Card.freePlan {
+    flex-direction: column;
+  }
+
+  .plansPage .Card.freePlan .bottomGap {
+    margin-bottom: 10px;
+  }
 }

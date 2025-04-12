@@ -95,7 +95,7 @@ const Page = () => {
           <Card key={i} item={plan} period={period} />
         ))}
       </div>
-      <Text mt="xl" mb="xl" className="textMD" style={{ fontStyle: "italic" }}>
+      <Text mt="xl" mb="xl" className="textMD" style={{ fontStyle: "italic", textAlign: "center" }}>
         {t("limits.1")}{" "}
         <a
           style={{
@@ -112,7 +112,7 @@ const Page = () => {
         {t("limits.3")}
       </Text>
       <div
-        className="Card"
+        className="Card freePlan"
         style={{
           display: "flex",
           gap: "5px",
@@ -121,7 +121,7 @@ const Page = () => {
           marginBottom: "60px",
         }}
       >
-        <div>
+        <div className="bottomGap" >
           <Text
             color="green.4"
             style={{ fontWeight: 700, textAlign: "center" }}
