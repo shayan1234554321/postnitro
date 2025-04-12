@@ -74,25 +74,94 @@
       },
       "plans": "Planes"
     },
-    "buttons":{
-      "menu":"Menú",
-      "imagePost":"Crear publicación de imagen",
-      "createCarousal":{
-        "1":"Crear",
-        "2":"Parranda"
+    "buttons": {
+      "menu": "Menú",
+      "imagePost": "Crear publicación de imagen",
+      "createCarousal": {
+        "1": "Crear",
+        "2": "Parranda"
       }
     }
   },
-  "homePage":{
-    "subTitle":"Generador de carruseles con IA para contenido viral",
-    "title":"Generador de carruseles con tecnología de IA para Instagram, LinkedIn y más",
-    "description":"La plataforma de PostNitro, impulsada por IA, crea carruseles impactantes para Instagram, LinkedIn, TikTok y más. Impulsa tu interacción en redes sociales con contenido personalizable y alineado con tu marca, generado en minutos.",
-    "creators":"Únete a más de 32,000 creadoras",
-    "embedded":{
-      "title":"Integrado en",
-      "description":"40+ Plataformas SMM"
+  "homePage": {
+    "subTitle": "Generador de carruseles con IA para contenido viral",
+    "title": "Generador de carruseles con tecnología de IA para Instagram, LinkedIn y más",
+    "description": "La plataforma de PostNitro, impulsada por IA, crea carruseles impactantes para Instagram, LinkedIn, TikTok y más. Impulsa tu interacción en redes sociales con contenido personalizable y alineado con tu marca, generado en minutos.",
+    "creators": "Únete a más de 32,000 creadoras",
+    "embedded": {
+      "title": "Integrado en",
+      "description": "40+ Plataformas SMM"
     },
-    "button":"Empieza a crear carruseles gratuitos",
-    "subButton":"No se requiere tarjeta de crédito | Descargas gratuitas cada mes"
+    "button": "Empieza a crear carruseles gratuitos",
+    "subButton": "No se requiere tarjeta de crédito | Descargas gratuitas cada mes"
+  },
+  "plans": {
+    "subTitle": "Planes para sus necesidades de creación de carruseles",
+    "title": "Desde creadores solistas hasta agencias, tenemos un plan que se adapta a tus necesidades.",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "off": "¡40% de descuento en la suscripci n anual! - ANNUAL40OFF",
+    "plans": {
+      "1": {
+        "name": "PLAN INICIAL",
+        "price": { "monthly": "$10/mes", "yearly": "$10/mes" },
+        "perfectFor": "Perfecto para comenzar.",
+        "features": {
+          "1": "Exportaciones sin marca de agua",
+          "2": "Acceso a modelos de IA básicos (GPT-4o, Claude Haiku)",
+          "3": "30 descargas/mes",
+          "4": "8 diapositivas generadas por IA por carrusel"
+        }
+      },
+      "2": {
+        "name": "PLAN SOLOPRENEUR",
+        "price": { "monthly": "$20 al mes", "yearly": "$12 al mes" },
+        "saves": "Te ahorra $96 al a o",
+        "perfectFor": "Perfecto para creadores solistas.",
+        "focused": true,
+        "features": {
+          "1": "Exportaciones sin marca de agua",
+          "2": "Acceso a modelos de IA b sicos (GPT-4o, Claude Haiku)",
+          "3": "15 diapositivas generadas por IA por carrusel",
+          "4": "Hasta 5 marcas",
+          "5": "Descargas ilimitadas",
+          "6": "Acceso a todos los modelos",
+          "7": "Paletas de colores personalizadas",
+          "8": "Crear modelos personalizados"
+        }
+      },
+      "3": {
+        "name": "PLAN DE EQUIPO",
+        "price": { "monthly": "$50/mes", "yearly": "$30/mes" },
+        "saves": "Te ahorra $240 al a o.",
+        "perfectFor": "Perfecto para peque os equipos.",
+        "features": {
+          "1": "100 im genes generadas por IA al mes",
+          "2": "Hasta 5 espacios de trabajo",
+          "3": "Hasta 20 diapositivas por carrusel",
+          "4": "15 plantillas personalizadas"
+        }
+      },
+      "common": {
+        "previously": "Anteriormente",
+        "taxes": "Todos los precios est n sujetos a impuestos aplicables",
+        "button": "Comenzar"
+      }
+    },
+    "limits": {
+      "1": "Si requiere l mites adicionales, puede",
+      "2": "agregarlos como complementos",
+      "3": "a su suscripci n."
+    },
+    "freePlan": {
+      "name": "PLAN GRATUITO",
+      "price": "$0/mes",
+      "perfectFor": "Para ayudarte a empezar",
+      "features": {
+        "1": "Acceso a GPT 4o-Mini",
+        "2": "5 descargas al mes",
+        "3": "Acceso a plantillas b sicas"
+      }
+    }
   }
 }

@@ -69,25 +69,94 @@
       },
       "plans": "Plans"
     },
-    "buttons":{
-      "menu":"Menu",
-      "imagePost":"Create Image Post",
-      "createCarousal":{
-        "1":"Create",
-        "2":"Carousal"
+    "buttons": {
+      "menu": "Menu",
+      "imagePost": "Create Image Post",
+      "createCarousal": {
+        "1": "Create",
+        "2": "Carousal"
       }
     }
   },
-  "homePage":{
-    "subTitle":"AI-Powered Carousel Generator for Viral Content",
-    "title":"AI-Powered Carousel Generator for Instagram, LinkedIn & More",
-    "description":"PostNitro's AI-powered platform creates stunning carousels for Instagram, LinkedIn, TikTok, and more. Boost your social media engagement with customizable, brand-aligned content generated in minutes.",
-    "creators":"Join 32,000+ Creators",
-    "embedded":{
-      "title":"Embedded Into",
-      "description":"40+ SMM Platforms"
+  "homePage": {
+    "subTitle": "AI-Powered Carousel Generator for Viral Content",
+    "title": "AI-Powered Carousel Generator for Instagram, LinkedIn & More",
+    "description": "PostNitro's AI-powered platform creates stunning carousels for Instagram, LinkedIn, TikTok, and more. Boost your social media engagement with customizable, brand-aligned content generated in minutes.",
+    "creators": "Join 32,000+ Creators",
+    "embedded": {
+      "title": "Embedded Into",
+      "description": "40+ SMM Platforms"
     },
-    "button":"Start Creating Free Carousals",
-    "subButton":"No Credit Card Required | Free Downloads Every Month"
+    "button": "Start Creating Free Carousals",
+    "subButton": "No Credit Card Required | Free Downloads Every Month"
+  },
+  "plans": {
+    "subTitle": "Plans for Your Carousel Creation Needs",
+    "title": "From solo creators to agencies, we have a plan that fits your requirements.",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "off": "40% Off On Yearly Subscription! - ANNUAL40OFF",
+    "plans": {
+      "1": {
+        "name": "STARTER PLAN",
+        "price": { "monthly": "$10/month", "yearly": "$10/month" },
+        "perfectFor": "Perfect for getting started.",
+        "features": {
+          "1": "Watermark-free exports",
+          "2": "Access to basic AI models (GPT-4o, Claude Haiku)",
+          "3": "30 downloads/month",
+          "4": "8 AI Generated Slides per Carousel"
+        }
+      },
+      "2": {
+        "name": "SOLOPRENEUR PLAN",
+        "price": { "monthly": "$20/month", "yearly": "$12/month" },
+        "saves": "Saves you $96 per year",
+        "perfectFor": "Perfect for solo creators.",
+        "focused": true,
+        "features": {
+          "1": "Watermark-free exports",
+          "2": "Access to basic AI models (GPT-4o, Claude Haiku)",
+          "3": "15 AI Generated Slides per Carousel",
+          "4": "Upto 5 Brands",
+          "5": "Unlimited downloads",
+          "6": "Access to all templates",
+          "7": "Custom color palettes",
+          "8": "Create custom templates"
+        }
+      },
+      "3": {
+        "name": "TEAM PLAN",
+        "price": { "monthly": "$50/month", "yearly": "$30/month" },
+        "saves": "Saves you $240 per year.",
+        "perfectFor": "Perfect for small teams.",
+        "features": {
+          "1": "100 AI generated images per month",
+          "2": "Up to 5 workspaces",
+          "3": "Up to 20 slides per carousel",
+          "4": "15 custom templates"
+        }
+      },
+      "common": {
+        "previously": "Previously",
+        "taxes": "All prices are subject to applicable taxes",
+        "button": "Get Started"
+      }
+    },
+    "limits": {
+      "1": "If you require additional limits, you can",
+      "2": "add them as Add-Ons",
+      "3": "to your subscription."
+    },
+    "freePlan": {
+      "name": "FREE PLAN",
+      "price": "$0/month",
+      "perfectFor": "To help you get started",
+      "features": {
+        "1": "Access to GPT 4o-Mini",
+        "2": "5 downloads per month",
+        "3": "Access to basic templates"
+      }
+    }
   }
 }

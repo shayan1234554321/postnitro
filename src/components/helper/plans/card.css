@@ -1,0 +1,39 @@
+.plansPage .Card {
+  padding: 18px 16px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #e9ecef;
+  max-width: 335px;
+  position: relative;
+  flex: 1;
+}
+
+.plansPage .Card.focused {
+  border-color: #098d78;
+  border-width: 2px;
+}
+
+.plansPage .Card::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  background-color: #e9ecef;
+  z-index: -1;
+  border-radius: 10px;
+}
+
+.plansPage .Card.focused::before {
+  top: 10px;
+  left: 10px;
+  background-color: #098d78;
+}
+
+.plansPage .Card .features {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+  align-items: center;
+}
