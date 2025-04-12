@@ -13,6 +13,18 @@
   background-size: 2500px;
 }
 
+@media screen and (max-width: 1023px) {
+  .homePage {
+    padding: 10vh 10vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .homePage {
+    padding: 10vh 5vw;
+  }
+}
+
 .homePage .header {
   font-size: 3.3rem;
   font-weight: 600;
