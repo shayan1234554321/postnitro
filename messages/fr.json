@@ -1,0 +1,164 @@
+{
+  "HomePage": {
+    "title": "Bonjour le monde!"
+  },
+  "nav": {
+    "menu": {
+      "Getting Started": {
+        "name": "Commencer",
+        "list": {
+          "1": { "name": "Docs", "link": " https://postnitro.ai/docs" },
+          "2": { "name": "Blog", "link": "https://postnitro.ai/blog" },
+          "3": {
+            "name": "Filiale",
+            "link": " https://ls.postnitro.ai/affiliates"
+          }
+        }
+      },
+      "Products": {
+        "name": "Produits",
+        "list": {
+          "1": {
+            "name": "Carrousel LinkedIn",
+            "link": "https://postnitro.ai/carousels/linkedin"
+          },
+          "2": {
+            "name": "Carrousel Instagram",
+            "link": "https://postnitro.ai/carousels/instagram"
+          },
+          "3": {
+            "name": "Carrousel TikTok",
+            "link": "https://postnitro.ai/carousels/tiktok"
+          },
+          "4": {
+            "name": "Carrousel Twitter",
+            "link": "https://postnitro.ai/carousels/x-twitter"
+          },
+          "5": {
+            "name": "Int gration",
+            "link": "https://postnitro.ai/products/embed"
+          },
+          "6": {
+            "name": "Extension",
+            "link": "https://postnitro.ai/products/extension"
+          }
+        }
+      },
+      "Free Tools": {
+        "name": "Outils gratuits",
+        "list": {
+          "1": {
+            "name": "G n rateur de banni re Twitter",
+            "link": "https://postnitro.ai/free-ai-tools/twitter-free-banner-header-image-maker"
+          },
+          "2": {
+            "name": "G n rateur de banni re LinkedIn",
+            "link": "https://postnitro.ai/free-ai-tools/linkedin-free-banner-header-image-maker"
+          },
+          "3": {
+            "name": "G n rateur de grille Instagram",
+            "link": "https://postnitro.ai/free-ai-tools/instagram-free-image-splitter-grid-maker"
+          },
+          "4": {
+            "name": "Formateur de texte LinkedIn",
+            "link": "https://postnitro.ai/free-ai-tools/linkedin-free-text-formatter"
+          },
+          "5": {
+            "name": "G n rateur de post LinkedIn",
+            "link": "https://postnitro.ai/free-ai-tools/linkedin-free-post-generator"
+          }
+        }
+      },
+      "plans": "Forfaits"
+    },
+    "buttons": {
+      "menu": "Menu",
+      "imagePost": "Créer une publication d'image",
+      "createCarousal": {
+        "1": "Créer",
+        "2": "Beuverie"
+      }
+    }
+  },
+  "homePage": {
+    "subTitle": "Générateur de carrousel alimenté par l'IA pour le contenu viral",
+    "title": "Générateur de carrousel basé sur l'IA pour Instagram, LinkedIn et plus encore",
+    "description": "La plateforme d'IA de PostNitro crée des carrousels époustouflants pour Instagram, LinkedIn, TikTok et bien plus encore. Boostez votre engagement sur les réseaux sociaux grâce à du contenu personnalisable et personnalisé, généré en quelques minutes.",
+    "creators": "Rejoignez plus de 32 000 créateurs",
+    "embedded": {
+      "title": "Intégré dans",
+      "description": "40+ Plateformes SMM"
+    },
+    "button": "Commencez à créer des carrousels gratuits",
+    "subButton": "Aucune carte de crédit requise | Téléchargements gratuits chaque mois"
+  },
+  "plans": {
+    "subTitle": "Plans pour vos besoins de création de carrousel",
+    "title": "Des créateurs solos aux agences, nous avons un plan qui répond à vos exigences.",
+    "monthly": "Mensuel",
+    "yearly": "Annuel",
+    "off": "40% de réduction sur l'abonnement annuel ! - ANNUAL40OFF",
+    "plans": {
+      "1": {
+        "name": "PLAN DE DÉMARRAGE",
+        "price": { "monthly": "10 $/mois", "yearly": "10 $/mois" },
+        "perfectFor": "Parfait pour commencer.",
+        "features": {
+          "1": "Exportations sans filigrane",
+          "2": "Accès aux modèles d'IA de base (GPT-4o, Claude Haiku)",
+          "3": "30 téléchargements/mois",
+          "4": "8 diapositives générées par l'IA par carrousel"
+        }
+      },
+      "2": {
+        "name": "PLAN SOLOPRENEUR",
+        "price": { "monthly": "20 $/mois", "yearly": "12 $/mois" },
+        "saves": "Vous économisez 96 $ par an",
+        "perfectFor": "Parfait pour les créateurs solo.",
+        "focused": true,
+        "features": {
+          "1": "Exportations sans filigrane",
+          "2": "Accès aux modèles d'IA de base (GPT-4o, Claude Haiku)",
+          "3": "15 diapositives générées par l'IA par carrousel",
+          "4": "Jusqu'à 5 marques",
+          "5": "Téléchargements illimités",
+          "6": "Accès à tous les modèles",
+          "7": "Palettes de couleurs personnalisées",
+          "8": "Créez des modèles personnalisés"
+        }
+      },
+      "3": {
+        "name": "PLAN D'ÉQUIPE",
+        "price": { "monthly": "50 $/mois", "yearly": "30 $/mois" },
+        "saves": "Vous économisez 240 $ par an.",
+        "perfectFor": "Parfait pour les petites équipes.",
+        "features": {
+          "1": "100 images générées par l'IA par mois",
+          "2": "Jusqu'à 5 espaces de travail",
+          "3": "Jusqu'à 20 diapositives par carrousel",
+          "4": "15 modèles personnalisés"
+        }
+      },
+      "common": {
+        "previously": "Auparavant",
+        "taxes": "Tous les prix sont soumis à des taxes applicables",
+        "button": "Commencez"
+      }
+    },
+    "limits": {
+      "1": "Si vous avez besoin de limites supplémentaires, vous pouvez",
+      "2": "les ajouter en tant que compléments",
+      "3": "à votre abonnement."
+    },
+    "freePlan": {
+      "name": "PLAN GRATUIT",
+      "price": "0 $/mois",
+      "perfectFor": "Pour vous aider à démarrer",
+      "features": {
+        "1": "Accès à GPT 4o-Mini",
+        "2": "5 téléchargements par mois",
+        "3": "Accès aux modèles de base"
+      }
+    }
+  }
+}

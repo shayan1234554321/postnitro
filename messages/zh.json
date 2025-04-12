@@ -1,0 +1,164 @@
+{
+  "HomePage": {
+    "title": "你好世界!"
+  },
+  "nav": {
+    "menu": {
+      "Getting Started": {
+        "name": "入门",
+        "list": {
+          "1": { "name": "文档", "link": " https://postnitro.ai/docs" },
+          "2": { "name": "博客", "link": "https://postnitro.ai/blog" },
+          "3": {
+            "name": "附属公司",
+            "link": " https://ls.postnitro.ai/affiliates"
+          }
+        }
+      },
+      "Products": {
+        "name": "产品",
+        "list": {
+          "1": {
+            "name": "LinkedIn 轮播",
+            "link": "https://postnitro.ai/carousels/linkedin"
+          },
+          "2": {
+            "name": "Instagram 轮播",
+            "link": "https://postnitro.ai/carousels/instagram"
+          },
+          "3": {
+            "name": "TikTok 轮播",
+            "link": "https://postnitro.ai/carousels/tiktok"
+          },
+          "4": {
+            "name": "Twitter 轮播",
+            "link": "https://postnitro.ai/carousels/x-twitter"
+          },
+          "5": {
+            "name": "嵌入",
+            "link": "https://postnitro.ai/products/embed"
+          },
+          "6": {
+            "name": " 扩大",
+            "link": "https://postnitro.ai/products/extension"
+          }
+        }
+      },
+      "Free Tools": {
+        "name": "免费工具",
+        "list": {
+          "1": {
+            "name": "Twitter 横幅制作器",
+            "link": "https://postnitro.ai/free-ai-tools/twitter-free-banner-header-image-maker"
+          },
+          "2": {
+            "name": "LinkedIn 横幅制作器",
+            "link": "https://postnitro.ai/free-ai-tools/linkedin-free-banner-header-image-maker"
+          },
+          "3": {
+            "name": "Instagram 网格制作者",
+            "link": "https://postnitro.ai/free-ai-tools/instagram-free-image-splitter-grid-maker"
+          },
+          "4": {
+            "name": "LinkedIn 文本格式化程序",
+            "link": "https://postnitro.ai/free-ai-tools/linkedin-free-text-formatter"
+          },
+          "5": {
+            "name": "LinkedIn 后期生成器",
+            "link": "https://postnitro.ai/free-ai-tools/linkedin-free-post-generator"
+          }
+        }
+      },
+      "plans": "計劃"
+    },
+    "buttons": {
+      "menu": "選單",
+      "imagePost": "建立圖片貼文",
+      "createCarousal": {
+        "1": "創造",
+        "2": "狂歡節"
+      }
+    }
+  },
+  "homePage": {
+    "subTitle": "人工智慧驅動的病毒式內容輪播產生器",
+    "title": "適用於 Instagram、LinkedIn 等平台的 AI 驅動輪播產生器",
+    "description": "PostNitro 的人工智慧平台為 Instagram、LinkedIn、TikTok 等創建了令人驚嘆的輪播。透過在幾分鐘內產生的可自訂、與品牌一致的內容來提升您的社群媒體參與度。",
+    "creators": "加入 32,000+ 位創作者",
+    "embedded": {
+      "title": "嵌入到",
+      "description": "40+ SMM平台"
+    },
+    "button": "開始創建免費輪播",
+    "subButton": "無需信用卡 |每月免費下載"
+  },
+  "plans": {
+    "subTitle": "滿足您的輪播創建需求的計劃",
+    "title": "從個人創作者到代理機構，我們都有適合您要求的計劃。",
+    "monthly": "每月",
+    "yearly": "每年",
+    "off": "年度訂閱享 40% 折扣! - ANNUAL40OFF",
+    "plans": {
+      "1": {
+        "name": "入門計劃",
+        "price": { "monthly": "每月 10 美元", "yearly": "每月 10 美元" },
+        "perfectFor": "非常適合入門。",
+        "features": {
+          "1": "無浮水印導出",
+          "2": "存取基本 AI 模型（GPT-4o、Claude Haiku）",
+          "3": "每月 30 次下載",
+          "4": "每個輪播包含 8 張 AI 產生的幻燈片"
+        }
+      },
+      "2": {
+        "name": "個體經營者計劃",
+        "price": { "monthly": "每月 20 美元", "yearly": "每月 12 美元" },
+        "saves": "每年節省 96 美元",
+        "perfectFor": "非常適合獨立創作者。",
+        "focused": true,
+        "features": {
+          "1": "無浮水印導出",
+          "2": "存取基本 AI 模型（GPT-4o、Claude Haiku）",
+          "3": "每個輪播包含 15 張 AI 產生的幻燈片",
+          "4": "最多 5 個品牌",
+          "5": "無限下載",
+          "6": "存取所有模板",
+          "7": "自訂調色板",
+          "8": "建立自訂模板"
+        }
+      },
+      "3": {
+        "name": "團隊計劃",
+        "price": { "monthly": "每月 50 美元", "yearly": "每月 30 美元" },
+        "saves": "每年可為您節省 240 美元。",
+        "perfectFor": "非常適合小團隊。",
+        "features": {
+          "1": "每月 100 張 AI 生成圖像",
+          "2": "最多 5 個工作區",
+          "3": "每個輪播最多 20 張投影片",
+          "4": "15個自訂模板"
+        }
+      },
+      "common": {
+        "previously": "之前",
+        "taxes": "所有價格均需繳交適用稅費",
+        "button": "開始使用"
+      }
+    },
+    "limits": {
+      "1": "如果您需要額外的限制，您可以",
+      "2": "將它們新增為附加元件",
+      "3": "到您的訂閱。"
+    },
+    "freePlan": {
+      "name": "免費規劃",
+      "price": "0 美元/月",
+      "perfectFor": "幫助您入門",
+      "features": {
+        "1": "參觀 GPT 4o-Mini",
+        "2": "每月 5 次下載",
+        "3": "存取基本模板"
+      }
+    }
+  }
+}

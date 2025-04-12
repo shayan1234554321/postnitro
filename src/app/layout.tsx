@@ -1,20 +1,21 @@
 import "@mantine/core/styles.css";
 import React from "react";
-import {
-  MantineProvider,
-  ColorSchemeScript,
-  mantineHtmlProps,
-} from "@mantine/core";
-import { theme } from "../util/theme";
+import "./global.css";
+import { ColorSchemeScript, mantineHtmlProps } from "@mantine/core";
+import Providers from "../providers";
+import { getLocale } from "next-intl/server";
+import dynamic from "next/dynamic";
+const Header = dynamic(() => import("../components/layout/header"));
 
 export const metadata = {
   title: "Shayan",
   description: "Job Project",
 };
 
-export default function RootLayout({ children }: { children: any }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const locale = await getLocale();
   return (
-    <html lang="en" {...mantineHtmlProps}>
+    <html lang={locale} {...mantineHtmlProps}>
       <head>
         <ColorSchemeScript />
         <link rel="shortcut icon" href="/favicon.ico" />
@@ -23,12 +24,10 @@ export default function RootLayout({ children }: { children: any }) {
           content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
         />
       </head>
-      <body
-        data-new-gr-c-s-check-loaded="14.1209.0"
-        data-gr-ext-installed=""
-        suppressHydrationWarning
-      >
-        <MantineProvider theme={theme}>{children}</MantineProvider>
+      <body suppressHydrationWarning>
+        <Providers>
+          <Header locale={locale} />
+          {children}</Providers>
       </body>
     </html>
   );

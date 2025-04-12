@@ -1,0 +1,71 @@
+.homePage {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20vh 20vw;
+  background-image: url(/grid-box.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 2500px;
+}
+
+@media screen and (max-width: 1023px) {
+  .homePage {
+    padding: 10vh 10vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .homePage {
+    padding: 10vh 5vw;
+  }
+}
+
+.homePage .header {
+  font-size: 3.3rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .homePage .header {
+    font-size: 2.5rem;
+    line-height: 0.9;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .homePage .header {
+    font-size: 2rem;
+    line-height: 1;
+  }
+}
+
+.homePage .details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.homePage .details .user-collected {
+  width: 219px;
+}
+
+.homePage .details .creators > div {
+  display: flex;
+  align-items: center;
+  gap: 0.125rem;
+}
+
+.homePage .divider {
+  height: 45px;
+  width: 4px;
+  background-color: #dee2e6;
+}
