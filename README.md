@@ -29,7 +29,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> <a href="https://carmed.onrender.com/">Live</a>
+[postnitro-one.vercel.app](https://postnitro-one.vercel.app/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -47,11 +47,15 @@ Clone this repository to your desired folder:
 
 ### Install
 
-``npm install``
+```mermaide
+npm install
+```
 
 ### Usage
 
-```npm run dev```
+```mermaide
+npm run dev
+```
 
 And it will run on localhost:3000
 
@@ -62,4 +66,5 @@ npm run build
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
