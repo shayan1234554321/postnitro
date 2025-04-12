@@ -28,14 +28,15 @@
 }
 
 .nav .logo {
-    width: 131px;
-    height: auto;
+  width: 131px;
+  height: auto;
 }
 
-.nav .left, .nav .right {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.nav .left,
+.nav .right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .nav .showOnlyOnMobile {
@@ -72,7 +73,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1439px) {
   .nav .left > div {
     display: none;
   }
@@ -88,9 +89,29 @@
   .nav .mobileMenu.show {
     display: flex;
   }
+}
 
+@media screen and (max-width: 1023px) {
   .nav .dontShowOnMobile {
     display: none;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .nav .logo {
+    width: 100px;
+  }
   
+.nav .right {
+  gap: 2px;
+}
+}
+
+@media screen and (max-width: 450px) {
+  .nav .logo {
+    width: 90px;
+  }
+  .nav > div {
+    padding: 0;
+  }
 }

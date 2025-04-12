@@ -115,6 +115,16 @@ const Header = ({ locale }: { locale: string }) => {
           <div className="right" suppressHydrationWarning>
             <CountrySelector locale={locale} />
             <Button
+              className="showOnlyOnMobile textMD"
+              variant="subtle"
+              color="dark.9"
+              leftSection={<List size={16} />}
+              size="md"
+              onClick={() => setMobileMenu(true)}
+            >
+              {t("buttons.menu")}
+            </Button>
+            <Button
               className="dontShowOnMobile textMD"
               variant="outline"
               color="green.4"
@@ -141,16 +151,6 @@ const Header = ({ locale }: { locale: string }) => {
               }}
             >
               {t("buttons.imagePost")}
-            </Button>
-            <Button
-              className="showOnlyOnMobile textMD"
-              variant="subtle"
-              color="dark.9"
-              leftSection={<List size={16} />}
-              size="md"
-              onClick={() => setMobileMenu(true)}
-            >
-              {t("buttons.menu")}
             </Button>
             <Button
                variant="filled"
