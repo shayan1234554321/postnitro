@@ -51,7 +51,7 @@ Clone this repository to your desired folder:
 
 ### Usage
 
-``npm run dev``
+```npm run dev```
 
 And it will run on localhost:3000
 
